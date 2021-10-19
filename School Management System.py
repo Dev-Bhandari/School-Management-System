@@ -888,12 +888,12 @@ def main_screen1():
 
     canvas1 = Canvas(screen1, width = 900, height = 116)  
     canvas1.place(x=500,y=180)  
-    img1 = ImageTk.PhotoImage(Image.open("C:\Coding\Python\Project\dav_resized.png"))
+    img1 = ImageTk.PhotoImage(Image.open("C:/Users/devbh/OneDrive/Documents/School Management System Project/dav_resized.png"))
     canvas1.create_image(0, 0, anchor=NW, image=img1) 
     global canvas2,l2
     canvas2 = Canvas(screen1, width = 900, height = 238)  
     canvas2.place(x=500,y=340)  
-    img2 = ImageTk.PhotoImage(Image.open("C:\Coding\Python\Project\Webp.net-resizeimage.png"))
+    img2 = ImageTk.PhotoImage(Image.open("C:/Users/devbh/OneDrive/Documents/School Management System Project/Webp.net-resizeimage.png"))
     canvas2.create_image(0, 0, anchor=NW, image=img2)
 
     l2=Label(screen1,text = "We at D.A.V. believe in setting clear visions and challenges\n in keeping with the new millennium and laying a healthy\n foundation by creating a sustainable environment, that is the\n key to human existence...." ,
