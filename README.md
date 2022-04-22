@@ -8,4 +8,7 @@ This project has a GUI (graphical user interface) using Tkinter. This project ru
 1. Clone the project.
 2. Install the requirenments.txt .
     `pip install requirements.txt`
-3. You are ready to use this project.
+3. Make sure that you have asssigned the Mysql username and password in system environment variables.
+
+    `Mysql_user = YOUR_MYSQL_USERNAME , Mysql_pass = YOUR_MYSQL_PASSWORD` 
+5. You are ready to use this project.
