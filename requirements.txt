@@ -1,0 +1,2 @@
+Pillow==9.0.1
+mysql-connector==2.2.9
